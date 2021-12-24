@@ -1,0 +1,17 @@
+D:\Резерв проги\BeerCourseWork\bin\Debug\BeerCourseWork.exe.config
+D:\Резерв проги\BeerCourseWork\bin\Debug\BeerCourseWork.exe
+D:\Резерв проги\BeerCourseWork\bin\Debug\BeerCourseWork.pdb
+D:\Резерв проги\BeerCourseWork\obj\Debug\BeerCourseWork.csprojAssemblyReference.cache
+D:\Резерв проги\BeerCourseWork\obj\Debug\BeerCourseWork.Properties.Resources.resources
+D:\Резерв проги\BeerCourseWork\obj\Debug\BeerCourseWork.csproj.GenerateResource.cache
+D:\Резерв проги\BeerCourseWork\obj\Debug\BeerCourseWork.csproj.CoreCompileInputs.cache
+D:\Резерв проги\BeerCourseWork\obj\Debug\BeerCourseWork.exe
+D:\Резерв проги\BeerCourseWork\obj\Debug\BeerCourseWork.pdb
+D:\Резерв проги\BeerCourseWork\obj\Debug\BeerCourseWork.Authorization.resources
+D:\Резерв проги\BeerCourseWork\obj\Debug\BeerCourseWork.Registration.resources
+D:\Резерв проги\BeerCourseWork\obj\Debug\BeerCourseWork.ClientForm.resources
+D:\Резерв проги\BeerCourseWork\obj\Debug\BeerCourseWork.ProducerForm.resources
+D:\Резерв проги\BeerCourseWork\obj\Debug\BeerCourseWork.PurchaserForm.resources
+D:\Резерв проги\BeerCourseWork\obj\Debug\BeerCourseWork.Table.resources
+D:\Резерв проги\BeerCourseWork\obj\Debug\BeerCourseWork.addPriceForm.resources
+D:\Резерв проги\BeerCourseWork\obj\Debug\BeerCourseWork.Cart.resources
