@@ -13,5 +13,4 @@ D:\Резерв проги\BeerCourseWork\obj\Debug\BeerCourseWork.ClientForm.re
 D:\Резерв проги\BeerCourseWork\obj\Debug\BeerCourseWork.ProducerForm.resources
 D:\Резерв проги\BeerCourseWork\obj\Debug\BeerCourseWork.PurchaserForm.resources
 D:\Резерв проги\BeerCourseWork\obj\Debug\BeerCourseWork.Table.resources
-D:\Резерв проги\BeerCourseWork\obj\Debug\BeerCourseWork.addPriceForm.resources
 D:\Резерв проги\BeerCourseWork\obj\Debug\BeerCourseWork.Cart.resources

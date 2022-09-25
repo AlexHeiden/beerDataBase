@@ -112,7 +112,7 @@ namespace BeerCourseWork
          reader = cmdCheckExistence.ExecuteReader();
          if (reader.HasRows)
          {
-            String sqlUpdateIngWarehouse = "update [Ingredient Warehouse] set Weight = " + float.Parse(changeIngWarehouseAmountTextBox.Text)
+            String sqlUpdateIngWarehouse = "update [Ingredient Warehouse] set Weight = " + changeIngWarehouseAmountTextBox.Text.Replace(",", ".")
                   + " where NumIng = " + numIng;
             OleDbCommand cmdUpdateIngWarehouse = new OleDbCommand(sqlUpdateIngWarehouse, cn);
             cmdUpdateIngWarehouse.ExecuteNonQuery();
@@ -150,7 +150,7 @@ namespace BeerCourseWork
                + " group by Products.Name";
          OleDbDataReader reader = new OleDbCommand(sqlGetAmount, cn).ExecuteReader();
          reader.Read();
-         howMuchAmountTextBox.Text = reader["Amount"].ToString();
+         howMuchAmountTextBox.Text = ((int)float.Parse(reader["Amount"].ToString())).ToString();
       }
 
       private void button1_Click(object sender, EventArgs e)
@@ -316,6 +316,12 @@ namespace BeerCourseWork
             return;
          }
 
+         if (nameTextbox.Text.Contains('\''))
+         {
+            MessageBox.Show("Текстовое поле не может содержать одинарные кавычки", "Ошибка обновления данных", MessageBoxButtons.OK);
+            return;
+         }
+
          if (emailTextbox.Text.Length == 0)
          {
             MessageBox.Show("Для обновления данных нужно заполнить email", "Ошибка обновления данных", MessageBoxButtons.OK);
@@ -325,6 +331,12 @@ namespace BeerCourseWork
          if (emailTextbox.Text.Length > 50)
          {
             MessageBox.Show("Email может занимать не более 50 символов", "Ошибка обновления данных", MessageBoxButtons.OK);
+            return;
+         }
+
+         if (emailTextbox.Text.Contains('\''))
+         {
+            MessageBox.Show("Текстовое поле не может содержать одинарные кавычки", "Ошибка обновления данных", MessageBoxButtons.OK);
             return;
          }
 

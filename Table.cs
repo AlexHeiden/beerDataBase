@@ -218,8 +218,8 @@ namespace BeerCourseWork
             }
             case "Deliveries":
             {
-                  return "select Deliveries.NumDel, Users.Name as Client, Products.Name as Product, [Order Statuses].Name as Status,"
-                        + " Date from Deliveries"
+                  return "select Deliveries.NumDel, Users.Name as Client, Products.Name as Product, [Delivery Details].Amount," 
+                        + " [Order Statuses].Name as Status, Date from Deliveries"
                         + " inner join Users on Users.NumUser = Deliveries.NumClient"
                         + " inner join [Order Statuses] on [Order Statuses].NumStat = Deliveries.NumStat"
                         + " inner join [Delivery Details] on [Delivery Details].NumDel = Deliveries.NumDel"

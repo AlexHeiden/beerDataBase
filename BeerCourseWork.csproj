@@ -46,12 +46,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="addPriceForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="addPriceForm.Designer.cs">
-      <DependentUpon>addPriceForm.cs</DependentUpon>
-    </Compile>
     <Compile Include="Authorization.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -96,9 +90,6 @@
     <Compile Include="Table.Designer.cs">
       <DependentUpon>Table.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="addPriceForm.resx">
-      <DependentUpon>addPriceForm.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Authorization.resx">
       <DependentUpon>Authorization.cs</DependentUpon>
     </EmbeddedResource>

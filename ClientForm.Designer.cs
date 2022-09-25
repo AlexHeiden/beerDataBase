@@ -253,7 +253,7 @@ namespace BeerCourseWork
          this.Controls.Add(this.mainMenuTab);
          this.Name = "ClientForm";
          this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-         this.Text = "ClientForm";
+         this.Text = "Клиент";
          this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.ClientForm_FormClosing);
          this.Load += new System.EventHandler(this.ClientForm_Load);
          this.ordersPage.ResumeLayout(false);

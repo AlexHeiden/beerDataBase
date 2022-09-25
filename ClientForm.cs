@@ -65,6 +65,12 @@ namespace BeerCourseWork
             return;
          }
 
+         if (nameTextbox.Text.Contains('\''))
+         {
+            MessageBox.Show("Текстовое поле не может содержать одинарные кавычки", "Ошибка обновления данных", MessageBoxButtons.OK);
+            return;
+         }
+
          if (emailTextbox.Text.Length == 0)
          {
             MessageBox.Show("Для обновления данных нужно заполнить email", "Ошибка обновления данных", MessageBoxButtons.OK);
@@ -74,6 +80,12 @@ namespace BeerCourseWork
          if (emailTextbox.Text.Length > 50)
          {
             MessageBox.Show("Email может занимать не более 50 символов", "Ошибка обновления данных", MessageBoxButtons.OK);
+            return;
+         }
+
+         if (emailTextbox.Text.Contains('\''))
+         {
+            MessageBox.Show("Текстовое поле не может содержать одинарные кавычки", "Ошибка обновления данных", MessageBoxButtons.OK);
             return;
          }
 
